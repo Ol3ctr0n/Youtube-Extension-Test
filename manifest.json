@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Extension",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "content_scripts.js"
+            ]
+        }
+    ]
+}
